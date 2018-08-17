@@ -10,5 +10,5 @@ You should NOT try to redefine any of the above variables.
 
 const newID = oldID + 1000000000; 
 
-let ageIsValid = currentAge.isInteger();
+let ageIsValid = Number.isInteger(currentAge);
 
